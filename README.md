@@ -39,11 +39,9 @@ appium-doctor --android
 
 ### install everything necessary for the project to work
 ```sh
-pip install robotframework
+bundle install 
 ```
-```sh
-pip install robotframework-appiumlibrary
-```
+
 
 ### Install Vscode extensions too for better viewing
 
