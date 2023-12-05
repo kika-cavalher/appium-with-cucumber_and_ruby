@@ -1,4 +1,4 @@
-# test-appium-with-cucumber --Training Wheels Protocol
+# Appium with Appium/cucumber/Ruby --Training Wheels Protocol
 
 
 <h1 align="center">
@@ -40,6 +40,21 @@ appium-doctor --android
 ### install everything necessary for the project to work
 ```sh
 bundle install 
+```
+```sh
+irm get.scoop.sh | iex 
+```
+```sh
+scoop install allure 
+```
+
+### Create report server in local environment.
+
+
+Go to the project folder and enter the command in cmd:
+
+```sh
+allure serve logs\
 ```
 
 
