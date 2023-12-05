@@ -1,12 +1,8 @@
-Quando('acesso o Menu') do
-  hamburguer = '//android.widget.ImageButton[@content-desc="Open navigation drawer"]'
+When('I access the menu') do
+  @nav.tap_hamburger
 
-  find_element(xpath: hamburguer).click
 end
 
-Então('vejo a lista de opções de navegação') do
-  menuId = 'io.qaninja.android.twp:id/rvNavigation'
-
-  menu = find_element(id: menuId)
-  expect(menu.displayed?).to be true
+Then('I see the list of navigation options') do
+  expect(@nav.list.displayed?).to be true
 end

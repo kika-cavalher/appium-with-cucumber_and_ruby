@@ -1,8 +1,6 @@
-#language: pt
+Feature: Navegation
 
-Funcionalidade: Navegação
+    Scenario: Open Menu
 
-    Cenario: Abrir Menu
-
-        Quando acesso o Menu
-        Então vejo a lista de opções de navegação
+        When I access the menu 
+        Then I see the list of navigation options

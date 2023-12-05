@@ -51,7 +51,7 @@ scoop install allure
 ### Create report server in local environment.
 
 
-Go to the project folder and enter the command in cmd:
+Go to the project folder and enter the command in cmder:
 
 ```sh
 allure serve logs\
