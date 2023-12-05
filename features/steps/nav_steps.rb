@@ -1,12 +1,12 @@
-# Quando('acesso o Menu') do
-#   hamburguer = '//android.widget.ImageButton[@content-desc="Open navigation drawer"]'
+Quando('acesso o Menu') do
+  hamburguer = '//android.widget.ImageButton[@content-desc="Open navigation drawer"]'
 
-#   find_element(xpath: hamburguer).click
-# end
+  find_element(xpath: hamburguer).click
+end
 
-# Então('vejo a lista de opções de navegação') do
-#   menu = 'io.qaninja.android.twp:id/rvNavigation'
+Então('vejo a lista de opções de navegação') do
+  menuId = 'io.qaninja.android.twp:id/rvNavigation'
 
-#   find_element(id: menu)
-#   expect(menu.displayed?).to be true
-# end
+  menu = find_element(id: menuId)
+  expect(menu.displayed?).to be true
+end
