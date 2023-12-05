@@ -1,6 +1,10 @@
 Before do
   driver.start_driver
   driver.manage.timeouts.implicit_wait = 10
+
+  #Evento no botão começar para fazer isso em todos os testes.
+  # find_element(xpath: '//android.widget.Button[@text="COMEÇAR"]').click
+
 end
 
 After do |scenario|

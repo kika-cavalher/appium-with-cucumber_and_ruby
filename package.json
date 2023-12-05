@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "appium-1": "npm:appium@^1.22.0",
+    "appium1": "npm:appium@^1.22.0"
+  }
+}
