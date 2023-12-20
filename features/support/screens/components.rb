@@ -11,4 +11,8 @@ class Navigator
 
     return menu
   end
+
+  def tap_by_text(target)
+    find_element(xpath: "//*[@text='#{target}']").click
+  end
 end

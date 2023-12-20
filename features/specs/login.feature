@@ -1,3 +1,6 @@
+#cucumber features\specs\login.feature
+# allure serve logs/
+
 Feature: Login
 
     Scenario: Successfull Login
@@ -6,4 +9,4 @@ Feature: Login
         When Submit my credentials
             |email|eu@papito.io|
             |pass|qaninja|
-        Then I see the notification: "Show! Suas credenciais são válidas."
+        Then I see the notification: "Show! Suas credenciais são validas."
