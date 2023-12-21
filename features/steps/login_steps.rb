@@ -14,5 +14,5 @@ end
 Then('I see the notification: {string}') do |notice|
   # log(get_source) pega o html da tela.
   expect(@login.toast.text).to eql notice
-
 end
+
