@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <img src="./app/appiumTest.png" alt="Training Wheels Protocol App">
+  <img src="./app/appiumTests.png" alt="Training Wheels Protocol App">
   <br><br>
 </h1>
 
